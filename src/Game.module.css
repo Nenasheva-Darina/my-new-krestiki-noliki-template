@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 150px;
+  position: relative;
+}
+
+.GameButton {
+  border-radius: 10px;
+  padding: 15px;
+  margin: 50px 0px 10px 10px;
+  font-size: 30px;
+  background-color: rgba(4, 41, 122, 0.842);
+  color: rgb(255, 255, 255);
+}
+
+.GameButton:hover {
+  background-color: #e4256e;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}

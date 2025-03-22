@@ -1,0 +1,43 @@
+.info {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(0, 62, 121);
+}
+
+.Information {
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.currentPlayer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.winnerOverlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 440px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.winnerMessage {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 250px;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(4, 41, 122, 0.842);
+}
